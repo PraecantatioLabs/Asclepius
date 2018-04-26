@@ -1,33 +1,18 @@
-from requests_html import HTMLSession
+import subprocess
+from os import listdir
 
-session = HTMLSession()
-r = session.get("https://www.nyp.org/hudsonvalley/patients-and-visitors/charges")
-pricing = r.html.find("body > div.fill > div > div.col-sm-8.noleftpad > div:nth-child(3) > div > div > div")[0]
-# print(pricing)
-categories = pricing.find("h3")
-pricing_table = pricing.find("table")
-for i in zip(categories, pricing_table): 
-    # format of i: (categories, pricing_table)
-    # i[0] is categories
-    # Prints list of Categories
-    print("\n\n\n" +  "=== Start of " + i[0].text + " ===" + "\n\n\n")
-    # Gets list of tds in row
-    for j in i[1].find("tr"):
-        # Gets list of text nodes in body which may or may not be in a strong tag
-        k_iter = iter(j.find("td"))
-        for k in k_iter:
-        # Handle first row
-            l = k.find("strong")
-            if l:
-                print(l[0].text + " " + next(k_iter).find("strong")[0].text)
-            else:
-                print (k.text + " " + next(k_iter).text)
-                # print(k[0] + k[1] + "\n")
-    print("\n\n\n" + "=== End of " + i[0].text + " ===")
+# echo_cmd = ['echo', 'this', 'comes', 'from', 'echo']
+# proc = subprocess.Popen(echo_cmd, stdout=subprocess.PIPE)
+# output = proc.communicate()[0]
+# print('Got stdout:', output)
 
-import datetime
-print("\nInformation fetched on: " + str(datetime.datetime.now()))
-
-
-
+print(listdir('./hospitals'))
+for hospital in listdir('./hospitals'):
+    command = ['python', './hospitals/' + hospital]
+    hospital = hospital[:-2] + 'txt'
+    with open('./hospitals/' + hospital, 'wb+') as w:
+        proc = subprocess.Popen(command, stdout=w)
+        proc.communicate()
+        # print('Got stdout:', output)
+        
 
