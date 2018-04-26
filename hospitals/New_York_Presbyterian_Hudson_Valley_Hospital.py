@@ -1,4 +1,27 @@
 from requests_html import HTMLSession
+# from pony import orm
+
+# db = orm.Database()
+# from https://editor.ponyorm.com/user/asclepius/Project_Asclepius
+from decimal import Decimal
+from pony.orm import *
+
+
+db = Database()
+
+
+class Hospital_price_list(db.Entity):
+    id = Required(int)
+    hospital_name = Required(str)
+    treatment = Required(str)
+    price = Required(Decimal)
+    catergory = Optional(str)
+    PrimaryKey(id, hospital_name, treatment)
+
+
+
+db.generate_mapping()
+
 
 session = HTMLSession()
 r = session.get("https://www.nyp.org/hudsonvalley/patients-and-visitors/charges")
