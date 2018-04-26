@@ -16,10 +16,15 @@ cd Asclepius/
 pipenv install
 ```
 
+## Contributing
+- Add scraper and data for your local hospitals
+- Pull request
+- Type in `I agree to the terms as specified in CONTRIBUTING.md` 
+
 ## TODO
 
 - Add web query interface
 - Add database support 
 
 ## For more projects by Praecantatio Labs
-[![Praecantatio Labs](praecantatio_labs.png)](http://praecantatio.ai
+[![Praecantatio Labs](praecantatio_labs.png)](http://praecantatio.ai)
