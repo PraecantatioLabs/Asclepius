@@ -1,0 +1,271 @@
+
+
+
+=== Start of Room and Board ===
+
+
+
+Medical / Surgical / Obstetrics / Pediatrics Charges
+ICU $4084
+Obstetrics $2795
+Nursery $1938
+NICU $4084
+PCU $3441
+Semi-Private $2795
+Outpatient in a Bed $1588
+Telemetry $3441
+Pediatric $2795
+
+
+
+=== End of Room and Board ===
+
+
+
+=== Start of Emergency Department ===
+
+
+
+Level Charges
+I $1101
+II $1129
+III $1390
+IV $1564
+V $1898
+Critical Care-1st Hour $2249
+Critical Care-subsequent ½ hour $1189
+
+
+
+=== End of Emergency Department ===
+
+
+
+=== Start of Labor and Delivery ===
+
+
+
+Description Charges
+Cesarean Section Deliver $1367
+D & C $1191 first ½ hour, 1 hour $1191, 1 ½
+hours $2781, 2 hours $3574
+Labor and Delivery $2446 first hour, $1220 each additional ½ hour
+Non-Stress Fetal Monitor $929
+
+
+
+=== End of Labor and Delivery ===
+
+
+
+=== Start of Infusion Therapy ===
+
+
+
+Description Charge
+Chemo Infusion up to hour $2340
+IV Infusion up to 1 hour $2342
+IV Therapy up to 8 hours $1588
+Chemo Administration IV Push $581
+
+
+
+=== End of Infusion Therapy ===
+
+
+
+=== Start of Laboratory ===
+
+
+
+Description Charge
+CBC (Comprehensive metabolic  panel) $385
+Complete Blood Count with automated differential $113
+Venous Draw $27
+Vitamin D $748
+Lipid Panel $275
+Basic Metabolic Panel $164
+PTC $78
+TSH $172
+CBC with Manual Differential $113
+NT Pro-BNP $738
+Thyroxin Free $228
+Urine Culture $125
+Hemoglobin $135
+Vitamin B12 Level $179
+PTT (Partial Thromboplastin time) $133
+Lyme Antibody $397
+Prostate Specific Antigen $199
+Prothrombin Time $78
+Folate Level $171
+TSH (Thyroid Stimulating Hormone) $172
+CDiff toxin $413
+Lyme IGG and IGM $423
+UAM $57
+Bacterial ID $154
+Hepatic Function $186
+Blood Culture $326
+Ferritin $153
+MG $145
+Iron Level $101
+EKG $315
+
+
+
+=== End of Laboratory ===
+
+
+
+=== Start of Occupational Therapy ===
+
+
+
+Description Charges
+OT Manual Therapy (per 15 minutes) $105
+OT Therapeutic Exercise (per 15 minutes) $105
+OT Evaluation  Low $204
+OT Evaluation Moderate $210
+PT Evaluation High $225
+Re-evaluation $118
+OT Fluidotherapy (per 15 minutes) $111
+
+
+
+=== End of Occupational Therapy ===
+
+
+
+=== Start of Operating Room ===
+
+
+
+First Half-Hour Charge Charge for each additional 30 minutes
+$3000 $1500
+
+
+
+=== End of Operating Room ===
+
+
+
+=== Start of Minor Procedures ===
+
+
+
+Description Charges
+Cardioversion $4877
+Colonoscopy $2341
+Discogram $2341
+EGD $2341
+Endoscopy $2341
+
+
+
+=== End of Minor Procedures ===
+
+
+
+=== Start of Physical Therapy ===
+
+
+
+Description Charges
+Therapeutic Exercise (per 15 minutes) $111
+Manual Therapy (per 15 minutes) $105
+PT Evaluation $204
+PT Evaluation Moderate $210
+Evaluation Complex $225
+Re-evaluation $118
+Gait Training $118
+
+
+
+=== End of Physical Therapy ===
+
+
+
+=== Start of Respiratory / Pulmonary ===
+
+
+
+Description Charges
+Broncospasm Pre and Post Bronchodilator $1964
+Oxygen Therapy $699
+Volume/PFT $1095
+Spirometry with DLCO $883
+
+
+
+=== End of Respiratory / Pulmonary ===
+
+
+
+=== Start of Sleep Center ===
+
+
+
+Description Charges
+Polysomnography 4 or more parameters $3548
+Polysomnograpy with COAO $3548
+Sleep Unattended $3548
+Sleep Unattended & Resp Effort $760
+
+
+
+=== End of Sleep Center ===
+
+
+
+=== Start of X-Ray and Radiological ===
+
+
+
+Description Charges
+Mammogram Digital Screening $635
+Mammogram Digital Diagnostic $850
+Ultrasound Bilateral $599
+Dexa Bone Density $1048
+X-ray Chest 1 view $246
+X-ray Chest 2 views $494
+X-ray Spine Lumbosacral 2 or 3 views $588
+X-ray Abdomen $390
+X-ray Hand Complete $704
+X-ray Ankle complete $816
+Ultrasound Abdomen $3315
+Ultrasound Renal $3158
+Ultrasound Echocardiogram $3220
+Ultrasound Pelvic $3158
+MRI Spine w/o Contrast $4694
+MRI Lumbar w/o Contrast $4170
+MRI Thoracic w/o Contrast $4170
+MRI Head w/o Contrast $4170
+MRI Head with/without Contrast $6519
+MRI Joint w/o Contrast $4170
+CT Abdomen/Pelvis with Contrast $4514
+CT Abdomen/Pelvis w/woo contrast $5417
+CT Abdomen w/contrast $2256
+CT Chest w/o contrast $1976
+Nuclear Medicine Stress/Rest Test $6434
+Nuclear Medicine cardiac stress test without isotope $2694
+
+
+
+=== End of X-Ray and Radiological ===
+
+
+
+=== Start of Wound Care ===
+
+
+
+Description Charge
+Hyperbaric Chamber (each 30 Minutes) $1479
+Removal of Devitalized tissue $287
+Debridement of skin and devitalized tissue $792
+Unna boot application $332
+
+
+
+=== End of Wound Care ===
+
+Information fetched on: 2018-04-25 19:26:23.887112

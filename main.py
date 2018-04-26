@@ -25,6 +25,9 @@ for i in zip(categories, pricing_table):
                 # print(k[0] + k[1] + "\n")
     print("\n\n\n" + "=== End of " + i[0].text + " ===")
 
+import datetime
+print("\nInformation fetched on: " + str(datetime.datetime.now()))
+
 
 
 
