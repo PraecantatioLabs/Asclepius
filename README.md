@@ -12,7 +12,7 @@ https://www.msn.com/en-us/news/us/medicare-will-require-hospitals-to-post-prices
 If you do not have git, please click download as zip instead of running the first line.
 ```Shell
 git clonegit@github.com:PraecantatioLabs/Asclepius.git
-cd Asclepius
+cd Asclepius/
 pipenv install
 ```
 
