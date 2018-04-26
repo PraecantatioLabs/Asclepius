@@ -9,7 +9,6 @@ name = "pypi"
 
 requests-html = "*"
 pony = "*"
-sqlalchemy = "*"
 
 
 [dev-packages]
